@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=spring-demo-one/src&lt;com.gio.springdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1525283780564"/>
+<typeInfo handle="=spring-demo-one/src&lt;com.gio.springdemo{Coach.java[Coach" modifiers="513" timestamp="1525283909753"/>
+<typeInfo handle="=spring-demo-annotations/src&lt;com.gio.springdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1525354598980"/>
+<typeInfo handle="=spring-demo-annotations/src&lt;com.gio.springdemo{Coach.java[Coach" modifiers="513" timestamp="1525354741256"/>
+<typeInfo handle="=web-customer-tracker/src&lt;com.gio.springdemo.dao{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1526301563810"/>
+<typeInfo handle="=web-customer-tracker/src&lt;com.gio.springdemo.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1526301503306"/>
+<typeInfo handle="=spring-security-demo-02-basic-security/C:\/Users\/siciliag\/.m2\/repository\/org\/springframework\/security\/spring-security-web\/5.0.5.RELEASE\/spring-security-web-5.0.5.RELEASE.jar&lt;org.springframework.security.web.context(AbstractSecurityWebApplicationInitializer.class[AbstractSecurityWebApplicationInitializer" modifiers="1025" timestamp="1528229139289"/>
+<typeInfo handle="=spring-security-demo-02-basic-security/C:\/Users\/siciliag\/.m2\/repository\/org\/springframework\/security\/spring-security-config\/5.0.5.RELEASE\/spring-security-config-5.0.5.RELEASE.jar&lt;org.springframework.security.config.annotation.web.configuration(WebSecurityConfigurerAdapter.class[WebSecurityConfigurerAdapter" modifiers="1025" timestamp="1528229139538"/>
+</typeInfoHistroy>

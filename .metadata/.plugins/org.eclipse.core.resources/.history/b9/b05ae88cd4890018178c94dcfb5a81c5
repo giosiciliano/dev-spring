@@ -1,0 +1,5 @@
+package com.gio.springdemo.config;
+
+public class SecurityWebApplicationInitializer {
+
+}

@@ -1,0 +1,19 @@
+package com.gio.springdemo.rest;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class CustomerRestExceptionHandler {
+
+	// Add an exception hander for CustomerNotFoundException
+	@ExceptionHandler
+	public ResponseEntity<CustomerErrorResponse> handleException(CustomerNotFoundException) {
+		return null;
+	}
+	
+	// Add another exception handler ... to catch any exception (catch all)
+	
+	
+}

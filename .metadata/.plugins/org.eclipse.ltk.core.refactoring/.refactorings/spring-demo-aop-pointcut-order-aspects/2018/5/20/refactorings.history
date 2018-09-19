@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.gio.aopdemo.aspect.MyCloadLogAsyncAspect&apos; to &apos;MyCloudLogAsyncAspect&apos;&#x0D;&#x0A;- Original project: &apos;spring-demo-aop-pointcut-order-aspects&apos;&#x0D;&#x0A;- Original element: &apos;com.gio.aopdemo.aspect.MyCloadLogAsyncAspect&apos;&#x0D;&#x0A;- Renamed element: &apos;com.gio.aopdemo.aspect.MyCloudLogAsyncAspect&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyCloadLogAsyncAspect&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.gio.aopdemo.aspect{MyCloadLogAsyncAspect.java[MyCloadLogAsyncAspect" matchStrategy="1" name="MyCloudLogAsyncAspect" qualified="false" references="true" similarDeclarations="false" stamp="1526394302198" textual="false" version="1.0"/>
+</session>

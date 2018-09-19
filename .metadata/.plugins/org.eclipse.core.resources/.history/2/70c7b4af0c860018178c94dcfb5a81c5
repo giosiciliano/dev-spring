@@ -1,0 +1,54 @@
+package com.gio.springdemo.rest;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.gio.springdemo.entity.Customer;
+import com.gio.springdemo.service.CustomerService;
+
+@RestController
+@RequestMapping("/api")
+public class CustomerRestController {
+	
+	// autowire/inject CustomerService
+	@Autowired
+	private CustomerService customerService;
+	
+	// mapping for GET /customers
+	@GetMapping("/customers")
+	public List<Customer> getCustomers() {
+		return customerService.getCustomers();
+	}
+	
+	// mapping for GET /Customer
+	@GetMapping("/customer/{customerID}")
+	public Customer getCustomer(@PathVariable int customerID) {
+		
+		
+		Customer customer = customerService.getCustomer(customerID); 
+		
+		// for NULL objects Jackson will send a blank message
+		if (customer == null) {
+			throw new CustomerNotFoundException("Customer id not found - " + customerID);
+		}
+		
+		return customer;
+	}
+	
+	// mapping for Post /customer - add new customers
+	@PostMapping("/customers")
+	public Customer addCustomer(@RequestBody Customer customer) {
+		
+		customerService.saveCustomer(customer);
+		
+		return customer;
+	}
+
+}
